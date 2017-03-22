@@ -317,37 +317,7 @@ public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
     }
     
    
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jPanel_GridHolder = new javax.swing.JPanel();
-        jPanel_1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jPanel_2 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jPanel_3 = new javax.swing.JPanel();
-        jButton3 = new javax.swing.JButton();
-        jPanel_4 = new javax.swing.JPanel();
-        jButton4 = new javax.swing.JButton();
-        jPanel_5 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jPanel_6 = new javax.swing.JPanel();
-        jButton6 = new javax.swing.JButton();
-        jPanel_7 = new javax.swing.JPanel();
-        jButton7 = new javax.swing.JButton();
-        jPanel_8 = new javax.swing.JPanel();
-        jButton8 = new javax.swing.JButton();
-        jPanel_9 = new javax.swing.JPanel();
-        jButton9 = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
-
+   
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Kółko i Krzyżyk");
         setPreferredSize(new java.awt.Dimension(600, 600));
