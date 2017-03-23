@@ -26,15 +26,7 @@ public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
             String wyjsciezgry;
            
     
-    public KolkoKrzyzk() { //właściwości okna aplikacji
-        initComponents();//metoda swinga inicjalizujaca komponenty(JButton, JLabel itd)
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);//nadpisanie metody ktora definiuje jak ma być zamykane okno
-        boolean jestOk = nazwagracza();//maja sie wyswietlic okna ktore pobiora nazwy graczy
-        if (!jestOk)
-            System.exit(0);
-        wynikgry();//wyswietlenie wyniku gracza
-                     
-    }
+   
     
     
     @Override
