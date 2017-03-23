@@ -5,26 +5,12 @@ Program zrealizowałem z wykorzystaniem Swinga.
  */
 package KK;
 
-import com.sun.glass.events.WindowEvent;
-import com.sun.glass.ui.Window;
-import java.awt.Color;          
-import javax.swing.JFrame;
-import javax.swing.JOptionPane; //import klasy JOptionPane z biblioteki swing
 
 /**
  *
  * @author rafalmaciejowski
  */
-public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
-
-    private String kogokolej= "X";//stworzenie i przypisanie referencji klasy string dla znaku X
-    private String graczpierwszy = "Gracz pierwszy";//tworzymy stringa z graczem pierwszym
-            String graczdrugi = "Gracz drugi";//analogicznie stringa z graczem drugim
-            int wynikpierwszegogracza = 0;//zmienna int do ktorej bedziemy dodawać wynik
-            int wynikdrugiegogracza = 0;//zmienna w ktorej beda wyniki drugiego gracza
-    private String ruchgracza; //string narazie pusty, ale bedzie wpisywany tu kto akurat sie rusza
-            String wyjsciezgry;
-           
+blablablablabla public klasa asa 
     
     public KolkoKrzyzk() { //właściwości okna aplikacji
         initComponents();//metoda swinga inicjalizujaca komponenty(JButton, JLabel itd)
@@ -43,7 +29,7 @@ public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
                         //po kliknięciu X zamiast wyjścia z programu najpierw wyskoczy okno
                         //które zapyta czy napewno chcemy wyjść z programu
     {
-        int taknie = JOptionPane.showConfirmDialog(null,
+        int srakptak = JOptionPane.showConfirmDialog(null,
                 "Czy napewno chcesz opuścic grę?",
                 "Zakończenie gry.",
                 JOptionPane.YES_OPTION,//stworzenie panelu z przyciskiem yes/no
@@ -51,8 +37,7 @@ public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
         
         if (taknie==JOptionPane.YES_OPTION)
         {
-            super.dispose();//wywołanie metody dispose
-            System.exit(0);//zakonczenie programu
+            
         }
     }
     
@@ -62,7 +47,7 @@ public class KolkoKrzyzk extends javax.swing.JFrame { //klasa gry
         
         if(kogokolej.equals("X"))//warunek ze jak X rowne kogokolej to ruch nalezy do gracza pierwszego
             {
-             ruchgracza = graczpierwszy;
+            
             }
         else// w przypadku gdy kogokolej = O to ruch wykonuje gracz drugi
             {
